@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Pick&rsquo;em Line &mdash; NFL 2026&ndash;27</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="brand">
+      <a href="index.html" class="brand-mark">The Pick&rsquo;em Line</a>
+      <span class="brand-tag">Est. Season 2025</span>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="picks.html">Weekly Picks</a>
+      <a href="archive.html">Archive</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+
+  <section class="hero">
+    <p class="hero-eyebrow">2026&ndash;27 NFL Season</p>
+    <h1>Four picks.<br>One <span class="accent">bragging</span> right.</h1>
+    <p class="lede">
+      Michael, Antonio, PFF, and SS call every game, every week. Nobody's ever right
+      about the Broncos. Here's who's actually winning.
+    </p>
+  </section>
+
+  <div class="yard-divider" data-label="Current Standings"></div>
+
+  <section>
+    <div id="scoreboard" class="scoreboard">
+      <!-- filled by JS -->
+    </div>
+    <p id="scoreboard-note" class="status-line"></p>
+  </section>
+
+  <div class="yard-divider" data-label="Where to go"></div>
+
+  <section class="cards-grid">
+    <a href="picks.html" class="link-card">
+      <p class="lc-eyebrow">This week</p>
+      <h3>Make Your Picks</h3>
+      <p>Load the matchups, lock in a winner for every game, and see who called it once the results are in.</p>
+    </a>
+    <a href="archive.html" class="link-card">
+      <p class="lc-eyebrow">Look back</p>
+      <h3>Season Archive</h3>
+      <p>Every week, every pick, going back to 2025 &mdash; full standings history and who owns the trophy.</p>
+    </a>
+  </section>
+
+</main>
+
+<footer class="site-footer">The Pick&rsquo;em Line &middot; A Family Operation Since 2025</footer>
+
+<script src="assets/players.js"></script>
+<script src="assets/app.js"></script>
+<script>
+  (async function init() {
+    const weeks = await fetchSeasonWeeks(SEASON);
+    const record = computeStandings(weeks);
+    const board = document.getElementById("scoreboard");
+    const note = document.getElementById("scoreboard-note");
+
+    renderScoreboard(board, record);
+
+    const anyGames = Object.values(record).some((r) => r.wins + r.losses > 0);
+    if (weeks.length === 0) {
+      note.textContent = "No weeks posted yet for the " + SEASON + " season \u2014 head to Weekly Picks to get Week 1 started.";
+    } else if (!anyGames) {
+      note.textContent = "Picks are in for " + weeks.length + " week(s), but no results have been calculated yet.";
+    } else {
+      note.textContent = "";
+    }
+  })();
+</script>
+</body>
+</html>

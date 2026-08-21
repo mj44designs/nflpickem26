@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archive &mdash; The Pick&rsquo;em Line</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="brand">
+      <a href="index.html" class="brand-mark">The Pick&rsquo;em Line</a>
+      <span class="brand-tag">Est. Season 2025</span>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="picks.html">Weekly Picks</a>
+      <a href="archive.html" class="active">Archive</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+
+  <section class="hero">
+    <p class="hero-eyebrow">History Book</p>
+    <h1>The <span class="accent">Archive</span></h1>
+    <p class="lede">Every season, every week, every pick on record.</p>
+  </section>
+
+  <div class="season-tabs" id="season-tabs"></div>
+
+  <section class="panel">
+    <h2>Season Standings</h2>
+    <p class="panel-sub" id="season-standings-sub"></p>
+    <div id="season-standings"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Weeks</h2>
+    <p class="panel-sub">Pick a week to see the full slate</p>
+    <div id="week-list" class="week-list"></div>
+    <div id="week-detail"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">The Pick&rsquo;em Line &middot; A Family Operation Since 2025</footer>
+
+<script src="assets/players.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/archive.js"></script>
+</body>
+</html>

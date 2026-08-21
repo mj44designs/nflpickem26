@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekly Picks &mdash; The Pick&rsquo;em Line</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="brand">
+      <a href="index.html" class="brand-mark">The Pick&rsquo;em Line</a>
+      <span class="brand-tag">Est. Season 2025</span>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="picks.html" class="active">Weekly Picks</a>
+      <a href="archive.html">Archive</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+
+  <section class="hero">
+    <p class="hero-eyebrow">Season <span id="season-label"></span></p>
+    <h1>Weekly <span class="accent">Picks</span></h1>
+    <p class="lede">Load the matchups, make the calls, then lock in the actual winners once the games are done.</p>
+  </section>
+
+  <!-- ============ Week controls ============ -->
+  <section class="panel">
+    <h2>Week Setup</h2>
+    <p class="panel-sub">Pick a week to load, or start a new one</p>
+
+    <div id="week-pills" class="week-list"></div>
+
+    <div class="field-row">
+      <div>
+        <label for="week-number">Week #</label>
+        <input type="number" id="week-number" min="1" max="22" value="1">
+      </div>
+      <div style="align-self:end;">
+        <button id="btn-load-committed" class="secondary" type="button">Load This Week</button>
+      </div>
+      <div style="align-self:end;">
+        <button id="btn-next-week" class="secondary" type="button">Next Week Template</button>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <label class="btn file-label">
+        Load Weekly Matchups (JSON)
+        <input type="file" id="file-load-matchups" accept="application/json" style="display:none;">
+      </label>
+      <label class="btn file-label">
+        Import Picks &amp; Results (JSON)
+        <input type="file" id="file-import-week" accept="application/json" style="display:none;">
+      </label>
+    </div>
+
+    <p id="week-status" class="status-line"></p>
+  </section>
+
+  <!-- ============ Matchups ============ -->
+  <section class="panel">
+    <h2 id="matchups-title">Week 1 Matchups</h2>
+    <p class="panel-sub">Type games as &ldquo;Away @ Home&rdquo;, one per line &mdash; then click Update Pick Options</p>
+
+    <textarea id="matchup-text" placeholder="Patriots @ Seahawks&#10;49ers @ Rams&#10;Bears @ Panthers"></textarea>
+    <div class="btn-row">
+      <button id="btn-update-options" type="button">Update Pick Options</button>
+    </div>
+
+    <div class="tip">Tip: after typing or loading games, click <code>Update Pick Options</code> to build the pick table below. Existing picks are kept if the game list doesn't change.</div>
+
+    <div class="table-wrap">
+      <table id="picks-table">
+        <thead>
+          <tr id="picks-table-head"></tr>
+        </thead>
+        <tbody id="picks-table-body">
+          <tr><td colspan="6" style="color:var(--chalk-dim);">No matchups loaded yet.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="btn-row">
+      <button id="btn-calculate" class="amber" type="button">Calculate Results</button>
+      <button id="btn-save" class="secondary" type="button">Save Picks</button>
+      <button id="btn-load" class="secondary" type="button">Load Picks</button>
+    </div>
+  </section>
+
+  <!-- ============ Weekly results ============ -->
+  <section class="panel">
+    <h2>Weekly Results</h2>
+    <p class="panel-sub">Week <span id="results-week-num">1</span> summary</p>
+    <div id="weekly-results">
+      <p style="color:var(--chalk-dim);">No winners selected yet.</p>
+    </div>
+    <div class="btn-row">
+      <button id="btn-export" type="button">Export Picks &amp; Results (JSON)</button>
+    </div>
+    <p id="export-status" class="status-line"></p>
+  </section>
+
+  <!-- ============ All-time standings ============ -->
+  <section class="panel">
+    <h2>All&ndash;Time Standings</h2>
+    <p class="panel-sub" id="alltime-sub"><span id="season-label-2"></span> season, weeks saved to the site</p>
+    <div id="alltime-standings"></div>
+    <div class="btn-row">
+      <button id="btn-refresh-alltime" class="secondary" type="button">Refresh Standings</button>
+    </div>
+  </section>
+
+  <div class="tip">
+    Once you're happy with a week, click <strong>Export Picks &amp; Results</strong>, save the downloaded file
+    into <code>data/2026/</code> as <code>weekNN.json</code>, add its name to <code>data/2026/index.json</code>,
+    then commit &amp; push. That week is now permanent &mdash; it counts toward All&ndash;Time Standings and shows up
+    in the Archive for everyone who visits the site.
+  </div>
+
+</main>
+
+<footer class="site-footer">The Pick&rsquo;em Line &middot; A Family Operation Since 2025</footer>
+
+<script src="assets/players.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/picks.js"></script>
+</body>
+</html>
