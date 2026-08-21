@@ -47,6 +47,45 @@
     <div id="week-detail"></div>
   </section>
 
+  <div class="yard-divider" data-label="Bring in old weeks"></div>
+
+  <section class="panel">
+    <h2>Import Season Files</h2>
+    <p class="panel-sub">Upload every week's exported JSON at once and preview them here</p>
+
+    <div class="field-row">
+      <div>
+        <label for="import-season">Season</label>
+        <input type="text" id="import-season" placeholder="2025">
+      </div>
+      <div style="align-self:end;">
+        <label class="btn file-label">
+          Choose Week Files
+          <input type="file" id="import-files" accept="application/json" multiple style="display:none;">
+        </label>
+      </div>
+    </div>
+
+    <div class="tip">
+      Works with either format: the new site's <code>weekNN.json</code> files, or the original
+      tool's <code>weekN_results.json</code> exports (picks + results + all&ndash;time standings).
+      Select as many files as you have &mdash; the whole season at once is fine.
+    </div>
+
+    <p id="import-status" class="status-line"></p>
+
+    <div id="import-preview">
+      <h3 style="font-family:var(--font-display); text-transform:uppercase; font-size:1.1rem;">Preview</h3>
+      <div id="import-standings"></div>
+      <div id="import-week-pills" class="week-list" style="margin-top:16px;"></div>
+      <div id="import-week-detail"></div>
+    </div>
+
+    <div class="btn-row" id="import-download-row" style="display:none;">
+      <button id="btn-download-bundle" class="amber" type="button">Download data/&lt;season&gt;/ bundle</button>
+    </div>
+  </section>
+
 </main>
 
 <footer class="site-footer">The Pick&rsquo;em Line &middot; A Family Operation Since 2025</footer>
@@ -54,5 +93,6 @@
 <script src="assets/players.js"></script>
 <script src="assets/app.js"></script>
 <script src="assets/archive.js"></script>
+<script src="assets/import-legacy.js"></script>
 </body>
 </html>
