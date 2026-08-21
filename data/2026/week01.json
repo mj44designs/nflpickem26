@@ -1,0 +1,23 @@
+{
+  "season": "2026",
+  "week": 1,
+  "label": "Week 1",
+  "games": [
+    { "id": "g1",  "away": "Patriots",    "home": "Seahawks",  "picks": {}, "winner": null },
+    { "id": "g2",  "away": "49ers",       "home": "Rams",      "picks": {}, "winner": null },
+    { "id": "g3",  "away": "Bears",       "home": "Panthers",  "picks": {}, "winner": null },
+    { "id": "g4",  "away": "Buccaneers",  "home": "Bengals",   "picks": {}, "winner": null },
+    { "id": "g5",  "away": "Saints",      "home": "Lions",     "picks": {}, "winner": null },
+    { "id": "g6",  "away": "Bills",       "home": "Texans",    "picks": {}, "winner": null },
+    { "id": "g7",  "away": "Ravens",      "home": "Colts",     "picks": {}, "winner": null },
+    { "id": "g8",  "away": "Browns",      "home": "Jaguars",   "picks": {}, "winner": null },
+    { "id": "g9",  "away": "Falcons",     "home": "Steelers",  "picks": {}, "winner": null },
+    { "id": "g10", "away": "Jets",        "home": "Titans",    "picks": {}, "winner": null },
+    { "id": "g11", "away": "Cardinals",   "home": "Chargers",  "picks": {}, "winner": null },
+    { "id": "g12", "away": "Dolphins",    "home": "Raiders",   "picks": {}, "winner": null },
+    { "id": "g13", "away": "Packers",     "home": "Vikings",   "picks": {}, "winner": null },
+    { "id": "g14", "away": "Commanders",  "home": "Eagles",    "picks": {}, "winner": null },
+    { "id": "g15", "away": "Cowboys",     "home": "Giants",    "picks": {}, "winner": null },
+    { "id": "g16", "away": "Broncos",     "home": "Chiefs",    "picks": {}, "winner": null }
+  ]
+}
