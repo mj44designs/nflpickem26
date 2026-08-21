@@ -1,0 +1,569 @@
+/* ============================================================
+   NFL Pick'em — "Under the Lights" scoreboard theme
+   ============================================================ */
+
+:root {
+  --bg:        #0F1C15;
+  --bg-panel:  #16281D;
+  --bg-panel-2:#1C3325;
+  --turf:      #2E6F44;
+  --turf-bright:#4C9A5B;
+  --amber:     #F2B705;
+  --amber-dim: #C99A03;
+  --chalk:     #ECE7D8;
+  --chalk-dim: #B9B6A8;
+  --ink:       #0A120D;
+  --line:      #3A5443;
+  --danger:    #C8102E;
+
+  --font-display: "Anton", "Arial Narrow", sans-serif;
+  --font-mono:    "Oswald", "Arial Narrow", sans-serif;
+  --font-body:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 500px at 50% -10%, rgba(76,154,91,0.18), transparent 60%),
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0 2px, transparent 2px 80px),
+    var(--bg);
+  color: var(--chalk);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+a { color: inherit; }
+
+::selection { background: var(--amber); color: var(--ink); }
+
+/* ---------- Layout shell ---------- */
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px 80px;
+}
+
+.site-header {
+  border-bottom: 3px solid var(--line);
+  padding: 22px 20px 18px;
+  margin-bottom: 36px;
+  background: linear-gradient(180deg, rgba(76,154,91,0.10), transparent);
+}
+
+.site-header-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.brand-mark {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  color: var(--amber);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.brand-tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--chalk-dim);
+}
+
+nav.site-nav {
+  display: flex;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+nav.site-nav a {
+  padding: 8px 14px;
+  text-decoration: none;
+  color: var(--chalk-dim);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+nav.site-nav a:hover,
+nav.site-nav a.active {
+  color: var(--amber);
+  border-color: var(--line);
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+  padding: 10px 0 8px;
+  margin-bottom: 40px;
+}
+
+.hero-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--turf-bright);
+  margin: 0 0 10px;
+}
+
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  line-height: 0.98;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0 0 14px;
+  color: var(--chalk);
+}
+
+.hero h1 .accent { color: var(--amber); }
+
+.hero p.lede {
+  max-width: 640px;
+  color: var(--chalk-dim);
+  font-size: 1.05rem;
+}
+
+/* ---------- Yard-line divider ---------- */
+
+.yard-divider {
+  position: relative;
+  height: 1px;
+  background: var(--line);
+  margin: 44px 0 30px;
+}
+
+.yard-divider::before {
+  content: attr(data-label);
+  position: absolute;
+  left: 0;
+  top: -11px;
+  background: var(--bg);
+  padding-right: 14px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--chalk-dim);
+}
+
+/* ---------- Scoreboard widget (signature element) ---------- */
+
+.scoreboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin: 20px 0 10px;
+}
+
+.score-panel {
+  background: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 16px 18px;
+  position: relative;
+  overflow: hidden;
+}
+
+.score-panel::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 6px;
+  background: var(--panel-color, var(--turf-bright));
+}
+
+.score-panel .p-name {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--chalk);
+  margin: 0 0 2px;
+}
+
+.score-panel .p-team {
+  font-size: 0.72rem;
+  color: var(--chalk-dim);
+  margin: 0 0 12px;
+  letter-spacing: 0.04em;
+}
+
+.score-panel .p-record {
+  font-family: var(--font-mono);
+  font-size: 2.1rem;
+  letter-spacing: 0.03em;
+  color: var(--amber);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.score-panel .p-pct {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--chalk-dim);
+  margin-top: 6px;
+  letter-spacing: 0.06em;
+}
+
+.score-panel.is-leader .p-record { color: var(--turf-bright); }
+.score-panel.is-leader::after {
+  content: "LEADER";
+  position: absolute;
+  right: 10px; top: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  color: var(--turf-bright);
+  border: 1px solid var(--turf-bright);
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+/* ---------- Cards / sections ---------- */
+
+.panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.panel h2 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin: 0 0 4px;
+  color: var(--chalk);
+}
+
+.panel .panel-sub {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--chalk-dim);
+  text-transform: uppercase;
+  margin: 0 0 18px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.link-card {
+  display: block;
+  text-decoration: none;
+  background: var(--bg-panel-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 20px;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.link-card:hover {
+  border-color: var(--amber);
+  transform: translateY(-2px);
+}
+
+.link-card .lc-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--turf-bright);
+  margin: 0 0 8px;
+}
+
+.link-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+  letter-spacing: 0.01em;
+}
+
+.link-card p {
+  color: var(--chalk-dim);
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+/* ---------- Forms & controls ---------- */
+
+label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--chalk-dim);
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select,
+textarea {
+  background: var(--ink);
+  border: 1px solid var(--line);
+  color: var(--chalk);
+  border-radius: 4px;
+  padding: 9px 10px;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  width: 100%;
+}
+
+textarea {
+  min-height: 130px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  resize: vertical;
+}
+
+select { cursor: pointer; }
+
+input:focus, select:focus, textarea:focus, button:focus, a:focus {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 4px 0 6px;
+}
+
+button, .btn {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--turf);
+  color: var(--chalk);
+  border: 1px solid var(--turf-bright);
+  border-radius: 4px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+button:hover { background: var(--turf-bright); }
+button:active { transform: translateY(1px); }
+
+button.secondary {
+  background: transparent;
+  border-color: var(--line);
+  color: var(--chalk-dim);
+}
+button.secondary:hover { border-color: var(--chalk-dim); color: var(--chalk); }
+
+button.amber {
+  background: var(--amber);
+  border-color: var(--amber);
+  color: var(--ink);
+  font-weight: 600;
+}
+button.amber:hover { background: var(--amber-dim); }
+
+button.danger {
+  background: transparent;
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.file-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ---------- Tables ---------- */
+
+.table-wrap { overflow-x: auto; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+thead th {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--chalk-dim);
+  text-align: left;
+  padding: 10px 10px;
+  border-bottom: 2px solid var(--line);
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: middle;
+}
+
+tbody tr:hover { background: rgba(255,255,255,0.02); }
+
+.game-matchup {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.game-matchup .at { color: var(--chalk-dim); font-weight: 400; margin: 0 4px; }
+
+.pick-select-correct { color: var(--turf-bright); font-weight: 600; }
+.pick-select-wrong { color: var(--danger); }
+
+.standings-rank {
+  font-family: var(--font-mono);
+  color: var(--amber);
+  font-weight: 600;
+}
+
+.standings-name { font-weight: 600; }
+.standings-team { color: var(--chalk-dim); font-size: 0.82rem; }
+
+/* ---------- Misc ---------- */
+
+.tip {
+  font-size: 0.85rem;
+  color: var(--chalk-dim);
+  border-left: 3px solid var(--amber-dim);
+  padding: 8px 14px;
+  background: rgba(242,183,5,0.06);
+  border-radius: 0 4px 4px 0;
+  margin: 14px 0;
+}
+
+.tip code {
+  background: var(--ink);
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.82em;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--chalk-dim);
+}
+
+.empty-state h3 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  color: var(--chalk);
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.status-line {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--turf-bright);
+  min-height: 1.2em;
+  margin: 8px 0;
+}
+.status-line.is-error { color: var(--danger); }
+
+.season-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.season-tabs button {
+  background: transparent;
+  border-color: var(--line);
+  color: var(--chalk-dim);
+}
+
+.season-tabs button.active {
+  background: var(--turf);
+  border-color: var(--turf-bright);
+  color: var(--chalk);
+}
+
+.week-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.week-pill {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  background: var(--bg-panel-2);
+  color: var(--chalk-dim);
+}
+
+.week-pill.active {
+  border-color: var(--amber);
+  color: var(--amber);
+}
+
+footer.site-footer {
+  max-width: 1080px;
+  margin: 60px auto 0;
+  padding: 20px;
+  border-top: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--chalk-dim);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .site-header-inner { flex-direction: column; align-items: flex-start; }
+  .hero h1 { font-size: 2.2rem; }
+}
