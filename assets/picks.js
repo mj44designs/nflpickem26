@@ -60,6 +60,7 @@ function renderTableBody() {
               <option value="">&mdash;</option>
               <option value="${g.away}" ${g.winner === g.away ? "selected" : ""}>${g.away}</option>
               <option value="${g.home}" ${g.winner === g.home ? "selected" : ""}>${g.home}</option>
+              <option value="TIE" ${g.winner === "TIE" ? "selected" : ""}>Tie</option>
             </select>
           </td>
         </tr>`;
@@ -134,6 +135,7 @@ function calculateResults() {
   currentWeek.games.forEach((g) => {
     if (!g.winner) return;
     anyWinner = true;
+    if (g.winner === "TIE") return; // push — doesn't count for anyone
     PLAYERS.forEach((p) => {
       const pick = g.picks && g.picks[p.id];
       if (!pick) return;
@@ -146,7 +148,7 @@ function calculateResults() {
   document.querySelectorAll(".pick-select").forEach((sel) => {
     const g = currentWeek.games.find((gm) => gm.id === sel.dataset.game);
     sel.classList.remove("pick-select-correct", "pick-select-wrong");
-    if (g && g.winner && sel.value) {
+    if (g && g.winner && g.winner !== "TIE" && sel.value) {
       sel.classList.add(sel.value === g.winner ? "pick-select-correct" : "pick-select-wrong");
     }
   });

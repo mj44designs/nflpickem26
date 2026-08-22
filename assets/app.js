@@ -81,15 +81,28 @@ async function fetchSeasonWeeks(season) {
 
 /* ---------- Standings math ---------- */
 
-/* Given an array of week objects ({games:[{picks,winner}...]}), compute
-   {playerId: {wins, losses}} across all games that have a recorded winner. */
+/* Given an array of week objects, compute {playerId: {wins, losses}}.
+   Two week shapes are supported:
+   - Per-game (2026+): { games: [{picks, winner}, ...] } — tallied from each
+     decided game.
+   - Legacy/aggregate (imported old seasons): { weeklyRecord: {playerId:{wins,losses}} }
+     — used directly, since old exports didn't preserve a per-game winner. */
 function computeStandings(weeks) {
   const record = {};
   PLAYERS.forEach((p) => (record[p.id] = { wins: 0, losses: 0 }));
 
   weeks.forEach((week) => {
+    if (week.weeklyRecord) {
+      PLAYERS.forEach((p) => {
+        const wr = week.weeklyRecord[p.id];
+        if (!wr) return;
+        record[p.id].wins += wr.wins || 0;
+        record[p.id].losses += wr.losses || 0;
+      });
+      return;
+    }
     (week.games || []).forEach((game) => {
-      if (!game.winner) return; // game not decided yet, doesn't count
+      if (!game.winner || game.winner === "TIE") return; // undecided or a push — doesn't count either way
       PLAYERS.forEach((p) => {
         const pick = game.picks && game.picks[p.id];
         if (!pick) return; // no pick made, doesn't count either way
@@ -100,6 +113,50 @@ function computeStandings(weeks) {
   });
 
   return record;
+}
+
+/* Renders a week's games table. Handles both per-game winners (2026+) and
+   legacy weeks where only the aggregate weeklyRecord is known (no winner
+   per game, so no correct/incorrect coloring — just picks on record). */
+function renderGamesTable(games, weeklyRecord) {
+  const rows = (games || [])
+    .map((g) => {
+      const isTie = g.winner === "TIE";
+      const cells = PLAYERS.map((p) => {
+        const pick = (g.picks && g.picks[p.id]) || "\u2014";
+        let cls = "";
+        if (g.winner && !isTie && g.picks && g.picks[p.id]) {
+          cls = g.picks[p.id] === g.winner ? "pick-select-correct" : "pick-select-wrong";
+        }
+        return `<td class="${cls}">${pick}</td>`;
+      }).join("");
+      const label = g.home ? `${g.away}<span class="at">@</span>${g.home}` : g.away;
+      const winnerText = isTie ? "Tie (push)" : (g.winner || "\u2014");
+      return `<tr><td class="game-matchup">${label}</td>${cells}<td>${winnerText}</td></tr>`;
+    })
+    .join("");
+
+  const table = `
+    <div class="table-wrap" style="margin-top:16px;">
+      <table>
+        <thead>
+          <tr><th>Game</th>${PLAYERS.map((p) => `<th>${p.name}</th>`).join("")}<th>Winner</th></tr>
+        </thead>
+        <tbody>${rows || `<tr><td colspan="${PLAYERS.length + 2}">No games recorded.</td></tr>`}</tbody>
+      </table>
+    </div>`;
+
+  if (!weeklyRecord) return table;
+
+  const summary = PLAYERS
+    .map((p) => {
+      const wr = weeklyRecord[p.id] || { wins: 0, losses: null };
+      const line = wr.losses === null ? `${wr.wins} correct` : `${wr.wins}-${wr.losses}`;
+      return `<span style="margin-right:18px;"><strong>${p.name}</strong> ${line}</span>`;
+    })
+    .join("");
+
+  return `<p class="status-line" style="color:var(--chalk-dim);">${summary}</p>` + table;
 }
 
 function renderScoreboard(container, record, opts = {}) {
