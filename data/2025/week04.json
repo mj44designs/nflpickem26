@@ -195,23 +195,5 @@
       },
       "winner": "Denver Broncos"
     }
-  ],
-  "weeklyRecord": {
-    "michael": {
-      "wins": 11,
-      "losses": 4
-    },
-    "antonio": {
-      "wins": 8,
-      "losses": 7
-    },
-    "pff": {
-      "wins": 10,
-      "losses": 5
-    },
-    "ss": {
-      "wins": 8,
-      "losses": 7
-    }
-  }
+  ]
 }

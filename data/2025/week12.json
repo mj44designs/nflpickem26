@@ -13,7 +13,7 @@
         "pff": "Bills",
         "ss": "Bills"
       },
-      "winner": null
+      "winner": "Texans"
     },
     {
       "id": "Patriots @ Bengals",
@@ -25,7 +25,7 @@
         "pff": "Patriots",
         "ss": "Patriots"
       },
-      "winner": null
+      "winner": "Patriots"
     },
     {
       "id": "Steelers @ Bears",
@@ -37,7 +37,7 @@
         "pff": "Bears",
         "ss": "Steelers"
       },
-      "winner": null
+      "winner": "Bears"
     },
     {
       "id": "Jets @ Ravens",
@@ -49,7 +49,7 @@
         "pff": "Ravens",
         "ss": "Ravens"
       },
-      "winner": null
+      "winner": "Ravens"
     },
     {
       "id": "Giants @ Lions",
@@ -61,7 +61,7 @@
         "pff": "Lions",
         "ss": "Lions"
       },
-      "winner": null
+      "winner": "Lions"
     },
     {
       "id": "Seahawks @ Titans",
@@ -73,7 +73,7 @@
         "pff": "Seahawks",
         "ss": "Seahawks"
       },
-      "winner": null
+      "winner": "Seahawks"
     },
     {
       "id": "Vikings @ Packers",
@@ -85,7 +85,7 @@
         "pff": "Packers",
         "ss": "Vikings"
       },
-      "winner": null
+      "winner": "Packers"
     },
     {
       "id": "Colts @ Chiefs",
@@ -97,7 +97,7 @@
         "pff": "Chiefs",
         "ss": "Chiefs"
       },
-      "winner": null
+      "winner": "Chiefs"
     },
     {
       "id": "Jaguars @ Cardinals",
@@ -109,7 +109,7 @@
         "pff": "Jaguars",
         "ss": "Cardinals"
       },
-      "winner": null
+      "winner": "Jaguars"
     },
     {
       "id": "Browns @ Raiders",
@@ -121,7 +121,7 @@
         "pff": "Raiders",
         "ss": "Raiders"
       },
-      "winner": null
+      "winner": "Browns"
     },
     {
       "id": "Eagles @ Cowboys",
@@ -133,7 +133,7 @@
         "pff": "Eagles",
         "ss": "Eagles"
       },
-      "winner": null
+      "winner": "Cowboys"
     },
     {
       "id": "Falcons @ Saints",
@@ -145,7 +145,7 @@
         "pff": "Saints",
         "ss": "Falcons"
       },
-      "winner": null
+      "winner": "Falcons"
     },
     {
       "id": "Buccaneers @ Rams",
@@ -157,7 +157,7 @@
         "pff": "Rams",
         "ss": "Rams"
       },
-      "winner": null
+      "winner": "Rams"
     },
     {
       "id": "Panthers @ 49ers",
@@ -169,25 +169,7 @@
         "pff": "49ers",
         "ss": "49ers"
       },
-      "winner": null
+      "winner": "49ers"
     }
-  ],
-  "weeklyRecord": {
-    "michael": {
-      "wins": 10,
-      "losses": 4
-    },
-    "antonio": {
-      "wins": 10,
-      "losses": 4
-    },
-    "pff": {
-      "wins": 10,
-      "losses": 4
-    },
-    "ss": {
-      "wins": 8,
-      "losses": 6
-    }
-  }
+  ]
 }

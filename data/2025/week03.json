@@ -195,23 +195,5 @@
       },
       "winner": "Detroit Lions"
     }
-  ],
-  "weeklyRecord": {
-    "michael": {
-      "wins": 12,
-      "losses": 4
-    },
-    "antonio": {
-      "wins": 12,
-      "losses": 4
-    },
-    "pff": {
-      "wins": 12,
-      "losses": 4
-    },
-    "ss": {
-      "wins": 11,
-      "losses": 5
-    }
-  }
+  ]
 }

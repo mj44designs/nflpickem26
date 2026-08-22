@@ -195,23 +195,5 @@
       },
       "winner": "Los Angeles Chargers"
     }
-  ],
-  "weeklyRecord": {
-    "michael": {
-      "wins": 11,
-      "losses": 5
-    },
-    "antonio": {
-      "wins": 12,
-      "losses": 4
-    },
-    "pff": {
-      "wins": 11,
-      "losses": 5
-    },
-    "ss": {
-      "wins": 13,
-      "losses": 3
-    }
-  }
+  ]
 }

@@ -13,7 +13,7 @@
         "pff": "Los Angeles Chargers",
         "ss": "Los Angeles Chargers"
       },
-      "winner": null
+      "winner": "Los Angeles Chargers"
     },
     {
       "id": "New York Jets @ Cincinnati Bengals",
@@ -25,7 +25,7 @@
         "pff": "Cincinnati Bengals",
         "ss": "Cincinnati Bengals"
       },
-      "winner": null
+      "winner": "New York Jets"
     },
     {
       "id": "Chicago Bears @ Baltimore Ravens",
@@ -37,7 +37,7 @@
         "pff": "Baltimore Ravens",
         "ss": "Chicago Bears"
       },
-      "winner": null
+      "winner": "Baltimore Ravens"
     },
     {
       "id": "Miami Dolphins @ Atlanta Falcons",
@@ -49,7 +49,7 @@
         "pff": "Atlanta Falcons",
         "ss": "Atlanta Falcons"
       },
-      "winner": null
+      "winner": "Miami Dolphins"
     },
     {
       "id": "Cleveland Browns @ New England Patriots",
@@ -61,7 +61,7 @@
         "pff": "New England Patriots",
         "ss": "New England Patriots"
       },
-      "winner": null
+      "winner": "New England Patriots"
     },
     {
       "id": "New York Giants @ Philadelphia Eagles",
@@ -73,7 +73,7 @@
         "pff": "Philadelphia Eagles",
         "ss": "Philadelphia Eagles"
       },
-      "winner": null
+      "winner": "Philadelphia Eagles"
     },
     {
       "id": "Buffalo Bills @ Carolina Panthers",
@@ -85,7 +85,7 @@
         "pff": "Buffalo Bills",
         "ss": "Buffalo Bills"
       },
-      "winner": null
+      "winner": "Buffalo Bills"
     },
     {
       "id": "San Francisco 49ers @ Houston Texans",
@@ -97,7 +97,7 @@
         "pff": "Houston Texans",
         "ss": "San Francisco 49ers"
       },
-      "winner": null
+      "winner": "Houston Texans"
     },
     {
       "id": "Tampa Bay Buccaneers @ New Orleans Saints",
@@ -109,7 +109,7 @@
         "pff": "Tampa Bay Buccaneers",
         "ss": "Tampa Bay Buccaneers"
       },
-      "winner": null
+      "winner": "Tampa Bay Buccaneers"
     },
     {
       "id": "Dallas Cowboys @ Denver Broncos",
@@ -121,7 +121,7 @@
         "pff": "Denver Broncos",
         "ss": "Denver Broncos"
       },
-      "winner": null
+      "winner": "Denver Broncos"
     },
     {
       "id": "Tennessee Titans @ Indianapolis Colts",
@@ -133,7 +133,7 @@
         "pff": "Indianapolis Colts",
         "ss": "Indianapolis Colts"
       },
-      "winner": null
+      "winner": "Indianapolis Colts"
     },
     {
       "id": "Green Bay Packers @ Pittsburgh Steelers",
@@ -145,7 +145,7 @@
         "pff": "Green Bay Packers",
         "ss": "Green Bay Packers"
       },
-      "winner": null
+      "winner": "Green Bay Packers"
     },
     {
       "id": "Washington Commanders @ Kansas City Chiefs",
@@ -157,25 +157,7 @@
         "pff": "Kansas City Chiefs",
         "ss": "Kansas City Chiefs"
       },
-      "winner": null
+      "winner": "Kansas City Chiefs"
     }
-  ],
-  "weeklyRecord": {
-    "michael": {
-      "wins": 9,
-      "losses": 4
-    },
-    "antonio": {
-      "wins": 7,
-      "losses": 6
-    },
-    "pff": {
-      "wins": 11,
-      "losses": 2
-    },
-    "ss": {
-      "wins": 9,
-      "losses": 4
-    }
-  }
+  ]
 }

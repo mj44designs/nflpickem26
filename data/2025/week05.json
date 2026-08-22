@@ -171,23 +171,5 @@
       },
       "winner": "Jaguars"
     }
-  ],
-  "weeklyRecord": {
-    "michael": {
-      "wins": 6,
-      "losses": 8
-    },
-    "antonio": {
-      "wins": 7,
-      "losses": 7
-    },
-    "pff": {
-      "wins": 5,
-      "losses": 9
-    },
-    "ss": {
-      "wins": 6,
-      "losses": 8
-    }
-  }
+  ]
 }
