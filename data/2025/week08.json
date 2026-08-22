@@ -4,62 +4,62 @@
   "label": "Week 8",
   "games": [
     {
-      "id": "Minnesota Vikings @ Los Angeles Chargers",
-      "away": "Minnesota Vikings",
-      "home": "Los Angeles Chargers",
+      "id": "Vikings @ Chargers",
+      "away": "Vikings",
+      "home": "Chargers",
       "picks": {
-        "michael": "Los Angeles Chargers",
-        "antonio": "Los Angeles Chargers",
-        "pff": "Los Angeles Chargers",
-        "ss": "Los Angeles Chargers"
+        "michael": "Chargers",
+        "antonio": "Chargers",
+        "pff": "Chargers",
+        "ss": "Chargers"
+      },
+      "winner": "Chargers"
+    },
+    {
+      "id": "Jets @ Bengals",
+      "away": "Jets",
+      "home": "Bengals",
+      "picks": {
+        "michael": "Bengals",
+        "antonio": "Bengals",
+        "pff": "Bengals",
+        "ss": "Bengals"
+      },
+      "winner": "Jets"
+    },
+    {
+      "id": "Bears @ Ravens",
+      "away": "Bears",
+      "home": "Ravens",
+      "picks": {
+        "michael": "Bears",
+        "antonio": "Bears",
+        "pff": "Ravens",
+        "ss": "Bears"
       },
       "winner": null
     },
     {
-      "id": "New York Jets @ Cincinnati Bengals",
-      "away": "New York Jets",
-      "home": "Cincinnati Bengals",
+      "id": "Dolphins @ Falcons",
+      "away": "Dolphins",
+      "home": "Falcons",
       "picks": {
-        "michael": "Cincinnati Bengals",
-        "antonio": "Cincinnati Bengals",
-        "pff": "Cincinnati Bengals",
-        "ss": "Cincinnati Bengals"
+        "michael": "Falcons",
+        "antonio": "Falcons",
+        "pff": "Falcons",
+        "ss": "Falcons"
       },
       "winner": null
     },
     {
-      "id": "Chicago Bears @ Baltimore Ravens",
-      "away": "Chicago Bears",
-      "home": "Baltimore Ravens",
+      "id": "Browns @ Patriots",
+      "away": "Browns",
+      "home": "Patriots",
       "picks": {
-        "michael": "Chicago Bears",
-        "antonio": "Chicago Bears",
-        "pff": "Baltimore Ravens",
-        "ss": "Chicago Bears"
-      },
-      "winner": null
-    },
-    {
-      "id": "Miami Dolphins @ Atlanta Falcons",
-      "away": "Miami Dolphins",
-      "home": "Atlanta Falcons",
-      "picks": {
-        "michael": "Atlanta Falcons",
-        "antonio": "Atlanta Falcons",
-        "pff": "Atlanta Falcons",
-        "ss": "Atlanta Falcons"
-      },
-      "winner": null
-    },
-    {
-      "id": "Cleveland Browns @ New England Patriots",
-      "away": "Cleveland Browns",
-      "home": "New England Patriots",
-      "picks": {
-        "michael": "New England Patriots",
-        "antonio": "New England Patriots",
-        "pff": "New England Patriots",
-        "ss": "New England Patriots"
+        "michael": "Patriots",
+        "antonio": "Patriots",
+        "pff": "Patriots",
+        "ss": "Patriots"
       },
       "winner": null
     },
