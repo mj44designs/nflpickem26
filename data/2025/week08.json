@@ -159,28 +159,4 @@
       },
       "winner": "Chiefs"
     }
-<<<<<<< HEAD
-  ]
-}
-=======
-  ],
-  "weeklyRecord": {
-    "michael": {
-      "wins": 9,
-      "losses": 4
-    },
-    "antonio": {
-      "wins": 7,
-      "losses": 6
-    },
-    "pff": {
-      "wins": 11,
-      "losses": 2
-    },
-    "ss": {
-      "wins": 9,
-      "losses": 4
-    }
-  }
-}
->>>>>>> da0c70d199b2e449a66b3b0ed698c6ea11fb7566
+
