@@ -1,0 +1,193 @@
+{
+  "season": "2025",
+  "week": 5,
+  "label": "Week 5",
+  "games": [
+    {
+      "id": "49ers @ Rams",
+      "away": "49ers",
+      "home": "Rams",
+      "picks": {
+        "michael": "Rams",
+        "antonio": "Rams",
+        "pff": "Rams",
+        "ss": "Rams"
+      },
+      "winner": "49ers"
+    },
+    {
+      "id": "Vikings @ Browns",
+      "away": "Vikings",
+      "home": "Browns",
+      "picks": {
+        "michael": "Vikings",
+        "antonio": "Vikings",
+        "pff": "Vikings",
+        "ss": "Browns"
+      },
+      "winner": "Vikings"
+    },
+    {
+      "id": "Giants @ Saints",
+      "away": "Giants",
+      "home": "Saints",
+      "picks": {
+        "michael": "Saints",
+        "antonio": "Giants",
+        "pff": "Saints",
+        "ss": "Giants"
+      },
+      "winner": "Saints"
+    },
+    {
+      "id": "Broncos @ Eagles",
+      "away": "Broncos",
+      "home": "Eagles",
+      "picks": {
+        "michael": "Broncos",
+        "antonio": "Eagles",
+        "pff": "Eagles",
+        "ss": "Eagles"
+      },
+      "winner": "Broncos"
+    },
+    {
+      "id": "Texans @ Ravens",
+      "away": "Texans",
+      "home": "Ravens",
+      "picks": {
+        "michael": "Ravens",
+        "antonio": "Texans",
+        "pff": "Texans",
+        "ss": "Texans"
+      },
+      "winner": "Texans"
+    },
+    {
+      "id": "Cowboys @ Jets",
+      "away": "Cowboys",
+      "home": "Jets",
+      "picks": {
+        "michael": "Jets",
+        "antonio": "Cowboys",
+        "pff": "Jets",
+        "ss": "Cowboys"
+      },
+      "winner": "Cowboys"
+    },
+    {
+      "id": "Raiders @ Colts",
+      "away": "Raiders",
+      "home": "Colts",
+      "picks": {
+        "michael": "Colts",
+        "antonio": "Colts",
+        "pff": "Colts",
+        "ss": "Colts"
+      },
+      "winner": "Colts"
+    },
+    {
+      "id": "Dolphins @ Panthers",
+      "away": "Dolphins",
+      "home": "Panthers",
+      "picks": {
+        "michael": "Dolphins",
+        "antonio": "Panthers",
+        "pff": "Dolphins",
+        "ss": "Dolphins"
+      },
+      "winner": "Panthers"
+    },
+    {
+      "id": "Titans @ Cardinals",
+      "away": "Titans",
+      "home": "Cardinals",
+      "picks": {
+        "michael": "Cardinals",
+        "antonio": "Cardinals",
+        "pff": "Cardinals",
+        "ss": "Cardinals"
+      },
+      "winner": "Titans"
+    },
+    {
+      "id": "Buccaneers @ Seahawks",
+      "away": "Buccaneers",
+      "home": "Seahawks",
+      "picks": {
+        "michael": "Seahawks",
+        "antonio": "Buccaneers",
+        "pff": "Seahawks",
+        "ss": "Seahawks"
+      },
+      "winner": "Buccaneers"
+    },
+    {
+      "id": "Commanders @ Chargers",
+      "away": "Commanders",
+      "home": "Chargers",
+      "picks": {
+        "michael": "Commanders",
+        "antonio": "Chargers",
+        "pff": "Chargers",
+        "ss": "Commanders"
+      },
+      "winner": "Commanders"
+    },
+    {
+      "id": "Lions @ Bengals",
+      "away": "Lions",
+      "home": "Bengals",
+      "picks": {
+        "michael": "Lions",
+        "antonio": "Lions",
+        "pff": "Lions",
+        "ss": "Lions"
+      },
+      "winner": "Lions"
+    },
+    {
+      "id": "Patriots @ Bills",
+      "away": "Patriots",
+      "home": "Bills",
+      "picks": {
+        "michael": "Bills",
+        "antonio": "Bills",
+        "pff": "Bills",
+        "ss": "Bills"
+      },
+      "winner": "Patriots"
+    },
+    {
+      "id": "Chiefs @ Jaguars",
+      "away": "Chiefs",
+      "home": "Jaguars",
+      "picks": {
+        "michael": "Chiefs",
+        "antonio": "Chiefs",
+        "pff": "Chiefs",
+        "ss": "Jaguars"
+      },
+      "winner": "Jaguars"
+    }
+  ],
+  "weeklyRecord": {
+    "michael": {
+      "wins": 6,
+      "losses": 8
+    },
+    "antonio": {
+      "wins": 7,
+      "losses": 7
+    },
+    "pff": {
+      "wins": 5,
+      "losses": 9
+    },
+    "ss": {
+      "wins": 6,
+      "losses": 8
+    }
+  }
+}

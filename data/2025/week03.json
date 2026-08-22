@@ -1,0 +1,217 @@
+{
+  "season": "2025",
+  "week": 3,
+  "label": "Week 3",
+  "games": [
+    {
+      "id": "Miami Dolphins @ Buffalo Bills",
+      "away": "Miami Dolphins",
+      "home": "Buffalo Bills",
+      "picks": {
+        "michael": "Buffalo Bills",
+        "antonio": "Buffalo Bills",
+        "pff": "Buffalo Bills",
+        "ss": "Buffalo Bills"
+      },
+      "winner": "Buffalo Bills"
+    },
+    {
+      "id": "Atlanta Falcons @ Carolina Panthers",
+      "away": "Atlanta Falcons",
+      "home": "Carolina Panthers",
+      "picks": {
+        "michael": "Atlanta Falcons",
+        "antonio": "Carolina Panthers",
+        "pff": "Atlanta Falcons",
+        "ss": "Atlanta Falcons"
+      },
+      "winner": "Carolina Panthers"
+    },
+    {
+      "id": "Green Bay Packers @ Cleveland Browns",
+      "away": "Green Bay Packers",
+      "home": "Cleveland Browns",
+      "picks": {
+        "michael": "Green Bay Packers",
+        "antonio": "Green Bay Packers",
+        "pff": "Green Bay Packers",
+        "ss": "Green Bay Packers"
+      },
+      "winner": "Cleveland Browns"
+    },
+    {
+      "id": "Houston Texans @ Jacksonville Jaguars",
+      "away": "Houston Texans",
+      "home": "Jacksonville Jaguars",
+      "picks": {
+        "michael": "Jacksonville Jaguars",
+        "antonio": "Jacksonville Jaguars",
+        "pff": "Jacksonville Jaguars",
+        "ss": "Jacksonville Jaguars"
+      },
+      "winner": "Jacksonville Jaguars"
+    },
+    {
+      "id": "Cincinnati Bengals @ Minnesota Vikings",
+      "away": "Cincinnati Bengals",
+      "home": "Minnesota Vikings",
+      "picks": {
+        "michael": "Minnesota Vikings",
+        "antonio": "Cincinnati Bengals",
+        "pff": "Minnesota Vikings",
+        "ss": "Minnesota Vikings"
+      },
+      "winner": "Minnesota Vikings"
+    },
+    {
+      "id": "Pittsburgh Steelers @ New England Patriots",
+      "away": "Pittsburgh Steelers",
+      "home": "New England Patriots",
+      "picks": {
+        "michael": "Pittsburgh Steelers",
+        "antonio": "Pittsburgh Steelers",
+        "pff": "Pittsburgh Steelers",
+        "ss": "New England Patriots"
+      },
+      "winner": "Pittsburgh Steelers"
+    },
+    {
+      "id": "Los Angeles Rams @ Philadelphia Eagles",
+      "away": "Los Angeles Rams",
+      "home": "Philadelphia Eagles",
+      "picks": {
+        "michael": "Philadelphia Eagles",
+        "antonio": "Philadelphia Eagles",
+        "pff": "Philadelphia Eagles",
+        "ss": "Philadelphia Eagles"
+      },
+      "winner": "Philadelphia Eagles"
+    },
+    {
+      "id": "New York Jets @ Tampa Bay Buccaneers",
+      "away": "New York Jets",
+      "home": "Tampa Bay Buccaneers",
+      "picks": {
+        "michael": "Tampa Bay Buccaneers",
+        "antonio": "Tampa Bay Buccaneers",
+        "pff": "Tampa Bay Buccaneers",
+        "ss": "Tampa Bay Buccaneers"
+      },
+      "winner": "Tampa Bay Buccaneers"
+    },
+    {
+      "id": "Indianapolis Colts @ Tennessee Titans",
+      "away": "Indianapolis Colts",
+      "home": "Tennessee Titans",
+      "picks": {
+        "michael": "Indianapolis Colts",
+        "antonio": "Indianapolis Colts",
+        "pff": "Indianapolis Colts",
+        "ss": "Tennessee Titans"
+      },
+      "winner": "Indianapolis Colts"
+    },
+    {
+      "id": "Las Vegas Raiders @ Washington Commanders",
+      "away": "Las Vegas Raiders",
+      "home": "Washington Commanders",
+      "picks": {
+        "michael": "Washington Commanders",
+        "antonio": "Washington Commanders",
+        "pff": "Washington Commanders",
+        "ss": "Washington Commanders"
+      },
+      "winner": "Washington Commanders"
+    },
+    {
+      "id": "Denver Broncos @ Los Angeles Chargers",
+      "away": "Denver Broncos",
+      "home": "Los Angeles Chargers",
+      "picks": {
+        "michael": "Denver Broncos",
+        "antonio": "Los Angeles Chargers",
+        "pff": "Los Angeles Chargers",
+        "ss": "Los Angeles Chargers"
+      },
+      "winner": "Los Angeles Chargers"
+    },
+    {
+      "id": "New Orleans Saints @ Seattle Seahawks",
+      "away": "New Orleans Saints",
+      "home": "Seattle Seahawks",
+      "picks": {
+        "michael": "Seattle Seahawks",
+        "antonio": "Seattle Seahawks",
+        "pff": "Seattle Seahawks",
+        "ss": "Seattle Seahawks"
+      },
+      "winner": "Seattle Seahawks"
+    },
+    {
+      "id": "Dallas Cowboys @ Chicago Bears",
+      "away": "Dallas Cowboys",
+      "home": "Chicago Bears",
+      "picks": {
+        "michael": "Chicago Bears",
+        "antonio": "Dallas Cowboys",
+        "pff": "Dallas Cowboys",
+        "ss": "Chicago Bears"
+      },
+      "winner": "Chicago Bears"
+    },
+    {
+      "id": "Arizona Cardinals @ San Francisco 49ers",
+      "away": "Arizona Cardinals",
+      "home": "San Francisco 49ers",
+      "picks": {
+        "michael": "San Francisco 49ers",
+        "antonio": "San Francisco 49ers",
+        "pff": "San Francisco 49ers",
+        "ss": "Arizona Cardinals"
+      },
+      "winner": "San Francisco 49ers"
+    },
+    {
+      "id": "Kansas City Chiefs @ New York Giants",
+      "away": "Kansas City Chiefs",
+      "home": "New York Giants",
+      "picks": {
+        "michael": "Kansas City Chiefs",
+        "antonio": "Kansas City Chiefs",
+        "pff": "Kansas City Chiefs",
+        "ss": "Kansas City Chiefs"
+      },
+      "winner": "Kansas City Chiefs"
+    },
+    {
+      "id": "Detroit Lions @ Baltimore Ravens",
+      "away": "Detroit Lions",
+      "home": "Baltimore Ravens",
+      "picks": {
+        "michael": "Baltimore Ravens",
+        "antonio": "Baltimore Ravens",
+        "pff": "Baltimore Ravens",
+        "ss": "Detroit Lions"
+      },
+      "winner": "Detroit Lions"
+    }
+  ],
+  "weeklyRecord": {
+    "michael": {
+      "wins": 12,
+      "losses": 4
+    },
+    "antonio": {
+      "wins": 12,
+      "losses": 4
+    },
+    "pff": {
+      "wins": 12,
+      "losses": 4
+    },
+    "ss": {
+      "wins": 11,
+      "losses": 5
+    }
+  }
+}

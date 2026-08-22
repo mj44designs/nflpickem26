@@ -1,0 +1,205 @@
+{
+  "season": "2025",
+  "week": 6,
+  "label": "Week 6",
+  "games": [
+    {
+      "id": "Eagles @ Giants",
+      "away": "Eagles",
+      "home": "Giants",
+      "picks": {
+        "michael": "Eagles",
+        "antonio": "Eagles",
+        "pff": "Eagles",
+        "ss": "Eagles"
+      },
+      "winner": "Giants"
+    },
+    {
+      "id": "Broncos @ Jets",
+      "away": "Broncos",
+      "home": "Jets",
+      "picks": {
+        "michael": "Broncos",
+        "antonio": "Broncos",
+        "pff": "Broncos",
+        "ss": "Broncos"
+      },
+      "winner": "Broncos"
+    },
+    {
+      "id": "Browns @ Steelers",
+      "away": "Browns",
+      "home": "Steelers",
+      "picks": {
+        "michael": "Steelers",
+        "antonio": "Steelers",
+        "pff": "Steelers",
+        "ss": "Steelers"
+      },
+      "winner": "Steelers"
+    },
+    {
+      "id": "Chargers @ Dolphins",
+      "away": "Chargers",
+      "home": "Dolphins",
+      "picks": {
+        "michael": "Chargers",
+        "antonio": "Chargers",
+        "pff": "Chargers",
+        "ss": "Chargers"
+      },
+      "winner": "Chargers"
+    },
+    {
+      "id": "49ers @ Buccaneers",
+      "away": "49ers",
+      "home": "Buccaneers",
+      "picks": {
+        "michael": "Buccaneers",
+        "antonio": "Buccaneers",
+        "pff": "Buccaneers",
+        "ss": "Buccaneers"
+      },
+      "winner": "Buccaneers"
+    },
+    {
+      "id": "Seahawks @ Jaguars",
+      "away": "Seahawks",
+      "home": "Jaguars",
+      "picks": {
+        "michael": "Jaguars",
+        "antonio": "Jaguars",
+        "pff": "Seahawks",
+        "ss": "Jaguars"
+      },
+      "winner": "Seahawks"
+    },
+    {
+      "id": "Cowboys @ Panthers",
+      "away": "Cowboys",
+      "home": "Panthers",
+      "picks": {
+        "michael": "Cowboys",
+        "antonio": "Cowboys",
+        "pff": "Cowboys",
+        "ss": "Cowboys"
+      },
+      "winner": "Panthers"
+    },
+    {
+      "id": "Rams @ Ravens",
+      "away": "Rams",
+      "home": "Ravens",
+      "picks": {
+        "michael": "Rams",
+        "antonio": "Rams",
+        "pff": "Rams",
+        "ss": "Rams"
+      },
+      "winner": "Rams"
+    },
+    {
+      "id": "Cardinals @ Colts",
+      "away": "Cardinals",
+      "home": "Colts",
+      "picks": {
+        "michael": "Colts",
+        "antonio": "Colts",
+        "pff": "Colts",
+        "ss": "Colts"
+      },
+      "winner": "Colts"
+    },
+    {
+      "id": "Titans @ Raiders",
+      "away": "Titans",
+      "home": "Raiders",
+      "picks": {
+        "michael": "Raiders",
+        "antonio": "Titans",
+        "pff": "Raiders",
+        "ss": "Titans"
+      },
+      "winner": "Raiders"
+    },
+    {
+      "id": "Bengals @ Packers",
+      "away": "Bengals",
+      "home": "Packers",
+      "picks": {
+        "michael": "Packers",
+        "antonio": "Packers",
+        "pff": "Packers",
+        "ss": "Packers"
+      },
+      "winner": "Packers"
+    },
+    {
+      "id": "Patriots @ Saints",
+      "away": "Patriots",
+      "home": "Saints",
+      "picks": {
+        "michael": "Saints",
+        "antonio": "Patriots",
+        "pff": "Patriots",
+        "ss": "Saints"
+      },
+      "winner": "Patriots"
+    },
+    {
+      "id": "Lions @ Chiefs",
+      "away": "Lions",
+      "home": "Chiefs",
+      "picks": {
+        "michael": "Lions",
+        "antonio": "Lions",
+        "pff": "Chiefs",
+        "ss": "Lions"
+      },
+      "winner": "Chiefs"
+    },
+    {
+      "id": "Bears @ Commanders",
+      "away": "Bears",
+      "home": "Commanders",
+      "picks": {
+        "michael": "Commanders",
+        "antonio": "Commanders",
+        "pff": "Commanders",
+        "ss": "Commanders"
+      },
+      "winner": "Bears"
+    },
+    {
+      "id": "Bills @ Falcons",
+      "away": "Bills",
+      "home": "Falcons",
+      "picks": {
+        "michael": "Bills",
+        "antonio": "Bills",
+        "pff": "Bills",
+        "ss": "Bills"
+      },
+      "winner": "Falcons"
+    }
+  ],
+  "weeklyRecord": {
+    "michael": {
+      "wins": 8,
+      "losses": 7
+    },
+    "antonio": {
+      "wins": 8,
+      "losses": 7
+    },
+    "pff": {
+      "wins": 11,
+      "losses": 4
+    },
+    "ss": {
+      "wins": 7,
+      "losses": 8
+    }
+  }
+}

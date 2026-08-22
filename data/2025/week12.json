@@ -1,0 +1,193 @@
+{
+  "season": "2025",
+  "week": 12,
+  "label": "Week 12",
+  "games": [
+    {
+      "id": "Bills @ Texans",
+      "away": "Bills",
+      "home": "Texans",
+      "picks": {
+        "michael": "Bills",
+        "antonio": "Bills",
+        "pff": "Bills",
+        "ss": "Bills"
+      },
+      "winner": null
+    },
+    {
+      "id": "Patriots @ Bengals",
+      "away": "Patriots",
+      "home": "Bengals",
+      "picks": {
+        "michael": "Patriots",
+        "antonio": "Patriots",
+        "pff": "Patriots",
+        "ss": "Patriots"
+      },
+      "winner": null
+    },
+    {
+      "id": "Steelers @ Bears",
+      "away": "Steelers",
+      "home": "Bears",
+      "picks": {
+        "michael": "Bears",
+        "antonio": "Steelers",
+        "pff": "Bears",
+        "ss": "Steelers"
+      },
+      "winner": null
+    },
+    {
+      "id": "Jets @ Ravens",
+      "away": "Jets",
+      "home": "Ravens",
+      "picks": {
+        "michael": "Ravens",
+        "antonio": "Ravens",
+        "pff": "Ravens",
+        "ss": "Ravens"
+      },
+      "winner": null
+    },
+    {
+      "id": "Giants @ Lions",
+      "away": "Giants",
+      "home": "Lions",
+      "picks": {
+        "michael": "Lions",
+        "antonio": "Lions",
+        "pff": "Lions",
+        "ss": "Lions"
+      },
+      "winner": null
+    },
+    {
+      "id": "Seahawks @ Titans",
+      "away": "Seahawks",
+      "home": "Titans",
+      "picks": {
+        "michael": "Seahawks",
+        "antonio": "Seahawks",
+        "pff": "Seahawks",
+        "ss": "Seahawks"
+      },
+      "winner": null
+    },
+    {
+      "id": "Vikings @ Packers",
+      "away": "Vikings",
+      "home": "Packers",
+      "picks": {
+        "michael": "Packers",
+        "antonio": "Packers",
+        "pff": "Packers",
+        "ss": "Vikings"
+      },
+      "winner": null
+    },
+    {
+      "id": "Colts @ Chiefs",
+      "away": "Colts",
+      "home": "Chiefs",
+      "picks": {
+        "michael": "Colts",
+        "antonio": "Colts",
+        "pff": "Chiefs",
+        "ss": "Chiefs"
+      },
+      "winner": null
+    },
+    {
+      "id": "Jaguars @ Cardinals",
+      "away": "Jaguars",
+      "home": "Cardinals",
+      "picks": {
+        "michael": "Jaguars",
+        "antonio": "Jaguars",
+        "pff": "Jaguars",
+        "ss": "Cardinals"
+      },
+      "winner": null
+    },
+    {
+      "id": "Browns @ Raiders",
+      "away": "Browns",
+      "home": "Raiders",
+      "picks": {
+        "michael": "Browns",
+        "antonio": "Browns",
+        "pff": "Raiders",
+        "ss": "Raiders"
+      },
+      "winner": null
+    },
+    {
+      "id": "Eagles @ Cowboys",
+      "away": "Eagles",
+      "home": "Cowboys",
+      "picks": {
+        "michael": "Eagles",
+        "antonio": "Cowboys",
+        "pff": "Eagles",
+        "ss": "Eagles"
+      },
+      "winner": null
+    },
+    {
+      "id": "Falcons @ Saints",
+      "away": "Falcons",
+      "home": "Saints",
+      "picks": {
+        "michael": "Saints",
+        "antonio": "Saints",
+        "pff": "Saints",
+        "ss": "Falcons"
+      },
+      "winner": null
+    },
+    {
+      "id": "Buccaneers @ Rams",
+      "away": "Buccaneers",
+      "home": "Rams",
+      "picks": {
+        "michael": "Rams",
+        "antonio": "Rams",
+        "pff": "Rams",
+        "ss": "Rams"
+      },
+      "winner": null
+    },
+    {
+      "id": "Panthers @ 49ers",
+      "away": "Panthers",
+      "home": "49ers",
+      "picks": {
+        "michael": "49ers",
+        "antonio": "49ers",
+        "pff": "49ers",
+        "ss": "49ers"
+      },
+      "winner": null
+    }
+  ],
+  "weeklyRecord": {
+    "michael": {
+      "wins": 10,
+      "losses": 4
+    },
+    "antonio": {
+      "wins": 10,
+      "losses": 4
+    },
+    "pff": {
+      "wins": 10,
+      "losses": 4
+    },
+    "ss": {
+      "wins": 8,
+      "losses": 6
+    }
+  }
+}
