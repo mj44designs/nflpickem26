@@ -1,0 +1,199 @@
+{
+  "season": "2025",
+  "week": 1,
+  "label": "Week 1",
+  "games": [
+    {
+      "id": "g1",
+      "away": "Cowboys",
+      "home": "Eagles",
+      "picks": {
+        "michael": "Eagles",
+        "antonio": "Cowboys",
+        "pff": "Eagles",
+        "ss": "Eagles"
+      },
+      "winner": Eagles
+    },
+    {
+      "id": "g2",
+      "away": "Chiefs",
+      "home": "Chargers",
+      "picks": {
+        "michael": "Chiefs",
+        "antonio": "Chiefs",
+        "pff": "Chiefs",
+        "ss": "Chiefs"
+      },
+      "winner": Chargers
+    },
+    {
+      "id": "g3",
+      "away": "Bucceneers",
+      "home": "Falcons",
+      "picks": {
+        "michael": "Bucceneers",
+        "antonio": "Bucceneers",
+        "pff": "Bucceneers",
+        "ss": "Bucceneers"
+      },
+      "winner": Bucceneers
+    },
+    {
+      "id": "g4",
+      "away": "Bengals",
+      "home": "Browns",
+      "picks": {
+        "michael": "Bengals",
+        "antonio": "Bengals",
+        "pff": "Bengals",
+        "ss": "Bengals"
+      },
+      "winner": Bengals
+    },
+    {
+      "id": "g5",
+      "away": "Dolphins",
+      "home": "Colts",
+      "picks": {
+        "michael": "Dolphins",
+        "antonio": "Dolphins",
+        "pff": "Colts",
+        "ss": "Colts"
+      },
+      "winner": Colts
+    },
+    {
+      "id": "g6",
+      "away": "Panthers",
+      "home": "Jaguars",
+      "picks": {
+        "michael": "Panthers",
+        "antonio": "Jaguars",
+        "pff": "Jaguars",
+        "ss": "Jaguars"
+      },
+      "winner": Jaguars
+    },
+    {
+      "id": "g7",
+      "away": "Raiders",
+      "home": "Patriots",
+      "picks": {
+        "michael": "Raiders",
+        "antonio": "Patriots",
+        "pff": "Patriots",
+        "ss": "Patriots"
+      },
+      "winner": Raiders
+    },
+    {
+      "id": "g8",
+      "away": "Cardinals",
+      "home": "Saints",
+      "picks": {
+        "michael": "Cardinals",
+        "antonio": "Cardinals",
+        "pff": "Cardinals",
+        "ss": "Cardinals"
+      },
+      "winner": Cardinals
+    },
+    {
+      "id": "g9",
+      "away": "Steelers",
+      "home": "Jets",
+      "picks": {
+        "michael": "Steelers",
+        "antonio": "Steelers",
+        "pff": "Steelers",
+        "ss": "Steelers"
+      },
+      "winner": Steelers
+    },
+    {
+      "id": "g10",
+      "away": "Giants",
+      "home": "Commanders",
+      "picks": {
+        "michael": "Commanders",
+        "antonio": "Commanders",
+        "pff": "Commanders",
+        "ss": "Commanders"
+      },
+      "winner": Commanders
+    },
+    {
+      "id": "g11",
+      "away": "Titans",
+      "home": "Broncos",
+      "picks": {
+        "michael": "Broncos",
+        "antonio": "Broncos",
+        "pff": "Broncos",
+        "ss": "Broncos"
+      },
+      "winner": Broncos
+    },
+    {
+      "id": "g12",
+      "away": "49ers",
+      "home": "Seahawks",
+      "picks": {
+        "michael": "49ers",
+        "antonio": "49ers",
+        "pff": "49ers",
+        "ss": "49ers"
+      },
+      "winner": 49ers
+    },
+    {
+      "id": "g13",
+      "away": "Lions",
+      "home": "Packers",
+      "picks": {
+        "michael": "Lions",
+        "antonio": "Lions",
+        "pff": "Packers",
+        "ss": "Lions"
+      },
+      "winner": Packers
+    },
+    {
+      "id": "g14",
+      "away": "Texans",
+      "home": "Rams",
+      "picks": {
+        "michael": "Texans",
+        "antonio": "Rams",
+        "pff": "Rams",
+        "ss": "Texans"
+      },
+      "winner": Rams
+    },
+    {
+      "id": "g15",
+      "away": "Ravens",
+      "home": "Bills",
+      "picks": {
+        "michael": "Bills",
+        "antonio": "Bills",
+        "pff": "Ravens",
+        "ss": "Ravens"
+      },
+      "winner": Bills
+    },
+    {
+      "id": "g16",
+      "away": "Vikings",
+      "home": "Bears",
+      "picks": {
+        "michael": "Bears",
+        "antonio": "Bears",
+        "pff": "Vikings",
+        "ss": "Vikings"
+      },
+      "winner": Vikings
+    }
+  ]
+}
