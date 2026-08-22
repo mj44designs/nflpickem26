@@ -13,7 +13,7 @@
         "pff": "Eagles",
         "ss": "Eagles"
       },
-      "winner": Eagles
+      "winner": "Eagles"
     },
     {
       "id": "g2",
@@ -25,7 +25,7 @@
         "pff": "Chiefs",
         "ss": "Chiefs"
       },
-      "winner": Chargers
+      "winner": "Chargers"
     },
     {
       "id": "g3",
@@ -37,7 +37,7 @@
         "pff": "Bucceneers",
         "ss": "Bucceneers"
       },
-      "winner": Bucceneers
+      "winner": "Bucceneers"
     },
     {
       "id": "g4",
@@ -49,7 +49,7 @@
         "pff": "Bengals",
         "ss": "Bengals"
       },
-      "winner": Bengals
+      "winner": "Bengals"
     },
     {
       "id": "g5",
@@ -61,7 +61,7 @@
         "pff": "Colts",
         "ss": "Colts"
       },
-      "winner": Colts
+      "winner": "Colts"
     },
     {
       "id": "g6",
@@ -73,7 +73,7 @@
         "pff": "Jaguars",
         "ss": "Jaguars"
       },
-      "winner": Jaguars
+      "winner": "Jaguars"
     },
     {
       "id": "g7",
@@ -85,7 +85,7 @@
         "pff": "Patriots",
         "ss": "Patriots"
       },
-      "winner": Raiders
+      "winner": "Raiders"
     },
     {
       "id": "g8",
@@ -97,7 +97,7 @@
         "pff": "Cardinals",
         "ss": "Cardinals"
       },
-      "winner": Cardinals
+      "winner": "Cardinals"
     },
     {
       "id": "g9",
@@ -109,7 +109,7 @@
         "pff": "Steelers",
         "ss": "Steelers"
       },
-      "winner": Steelers
+      "winner": "Steelers"
     },
     {
       "id": "g10",
@@ -121,7 +121,7 @@
         "pff": "Commanders",
         "ss": "Commanders"
       },
-      "winner": Commanders
+      "winner": "Commanders"
     },
     {
       "id": "g11",
@@ -133,7 +133,7 @@
         "pff": "Broncos",
         "ss": "Broncos"
       },
-      "winner": Broncos
+      "winner": "Broncos"
     },
     {
       "id": "g12",
@@ -145,7 +145,7 @@
         "pff": "49ers",
         "ss": "49ers"
       },
-      "winner": 49ers
+      "winner": "49ers"
     },
     {
       "id": "g13",
@@ -157,7 +157,7 @@
         "pff": "Packers",
         "ss": "Lions"
       },
-      "winner": Packers
+      "winner": "Packers"
     },
     {
       "id": "g14",
@@ -169,7 +169,7 @@
         "pff": "Rams",
         "ss": "Texans"
       },
-      "winner": Rams
+      "winner": "Rams"
     },
     {
       "id": "g15",
@@ -181,7 +181,7 @@
         "pff": "Ravens",
         "ss": "Ravens"
       },
-      "winner": Bills
+      "winner": "Bills"
     },
     {
       "id": "g16",
@@ -193,7 +193,7 @@
         "pff": "Vikings",
         "ss": "Vikings"
       },
-      "winner": Vikings
+      "winner": "Vikings"
     }
   ]
 }
