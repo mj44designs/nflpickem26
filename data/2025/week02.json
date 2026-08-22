@@ -4,196 +4,196 @@
   "label": "Week 2",
   "games": [
     {
-      "id": "Washington Commanders @ Green Bay Packers",
-      "away": "Washington Commanders",
-      "home": "Green Bay Packers",
+      "id": "Commanders @ Packers",
+      "away": "Commanders",
+      "home": "Packers",
       "picks": {
-        "michael": "Washington Commanders",
-        "antonio": "Green Bay Packers",
-        "pff": "Green Bay Packers",
-        "ss": "Green Bay Packers"
+        "michael": "Commanders",
+        "antonio": "Packers",
+        "pff": "Packers",
+        "ss": "Packers"
       },
-      "winner": "Green Bay Packers"
+      "winner": "Packers"
     },
     {
-      "id": "Cleveland Browns @ Baltimore Ravens",
-      "away": "Cleveland Browns",
-      "home": "Baltimore Ravens",
+      "id": "Browns @ Ravens",
+      "away": "Browns",
+      "home": "Ravens",
       "picks": {
-        "michael": "Baltimore Ravens",
-        "antonio": "Baltimore Ravens",
-        "pff": "Baltimore Ravens",
-        "ss": "Baltimore Ravens"
+        "michael": "Ravens",
+        "antonio": "Ravens",
+        "pff": "Ravens",
+        "ss": "Ravens"
       },
-      "winner": "Baltimore Ravens"
+      "winner": "Ravens"
     },
     {
-      "id": "Jacksonville Jaguars @ Cincinnati Bengals",
-      "away": "Jacksonville Jaguars",
-      "home": "Cincinnati Bengals",
+      "id": "Jaguars @ Bengals",
+      "away": "Jaguars",
+      "home": "Bengals",
       "picks": {
-        "michael": "Cincinnati Bengals",
-        "antonio": "Cincinnati Bengals",
-        "pff": "Cincinnati Bengals",
-        "ss": "Cincinnati Bengals"
+        "michael": "Bengals",
+        "antonio": "Bengals",
+        "pff": "Bengals",
+        "ss": "Bengals"
       },
-      "winner": "Cincinnati Bengals"
+      "winner": "Bengals"
     },
     {
-      "id": "New York Giants @ Dallas Cowboys",
-      "away": "New York Giants",
-      "home": "Dallas Cowboys",
+      "id": "Giants @ Cowboys",
+      "away": "Giants",
+      "home": "Cowboys",
       "picks": {
-        "michael": "Dallas Cowboys",
-        "antonio": "Dallas Cowboys",
-        "pff": "Dallas Cowboys",
-        "ss": "Dallas Cowboys"
+        "michael": "Cowboys",
+        "antonio": "Cowboys",
+        "pff": "Cowboys",
+        "ss": "Cowboys"
       },
-      "winner": "Dallas Cowboys"
+      "winner": "Cowboys"
     },
     {
-      "id": "Chicago Bears @ Detroit Lions",
-      "away": "Chicago Bears",
-      "home": "Detroit Lions",
+      "id": "Bears @ Lions",
+      "away": "Bears",
+      "home": "Lions",
       "picks": {
-        "michael": "Detroit Lions",
-        "antonio": "Detroit Lions",
-        "pff": "Detroit Lions",
-        "ss": "Detroit Lions"
+        "michael": "Lions",
+        "antonio": "Lions",
+        "pff": "Lions",
+        "ss": "Lions"
       },
-      "winner": "Detroit Lions"
+      "winner": "Lions"
     },
     {
-      "id": "New England Patriots @ Miami Dolphins",
-      "away": "New England Patriots",
-      "home": "Miami Dolphins",
+      "id": "Patriots @ Dolphins",
+      "away": "Patriots",
+      "home": "Dolphins",
       "picks": {
-        "michael": "New England Patriots",
-        "antonio": "New England Patriots",
-        "pff": "Miami Dolphins",
-        "ss": "Miami Dolphins"
+        "michael": "Patriots",
+        "antonio": "Patriots",
+        "pff": "Dolphins",
+        "ss": "Dolphins"
       },
-      "winner": "New England Patriots"
+      "winner": "Patriots"
     },
     {
-      "id": "San Francisco 49ers @ New Orleans Saints",
-      "away": "San Francisco 49ers",
-      "home": "New Orleans Saints",
+      "id": "49ers @ Saints",
+      "away": "49ers",
+      "home": "Saints",
       "picks": {
-        "michael": "San Francisco 49ers",
-        "antonio": "New Orleans Saints",
-        "pff": "San Francisco 49ers",
-        "ss": "New Orleans Saints"
+        "michael": "49ers",
+        "antonio": "Saints",
+        "pff": "49ers",
+        "ss": "Saints"
       },
-      "winner": "San Francisco 49ers"
+      "winner": "49ers"
     },
     {
-      "id": "Buffalo Bills @ New York Jets",
-      "away": "Buffalo Bills",
-      "home": "New York Jets",
+      "id": "Bills @ Jets",
+      "away": "Bills",
+      "home": "Jets",
       "picks": {
-        "michael": "Buffalo Bills",
-        "antonio": "Buffalo Bills",
-        "pff": "Buffalo Bills",
-        "ss": "Buffalo Bills"
+        "michael": "Bills",
+        "antonio": "Bills",
+        "pff": "Bills",
+        "ss": "Bills"
       },
-      "winner": "Buffalo Bills"
+      "winner": "Bills"
     },
     {
-      "id": "Seattle Seahawks @ Pittsburgh Steelers",
-      "away": "Seattle Seahawks",
-      "home": "Pittsburgh Steelers",
+      "id": "Seahawks @ Steelers",
+      "away": "Seahawks",
+      "home": "Steelers",
       "picks": {
-        "michael": "Pittsburgh Steelers",
-        "antonio": "Pittsburgh Steelers",
-        "pff": "Pittsburgh Steelers",
-        "ss": "Seattle Seahawks"
+        "michael": "Steelers",
+        "antonio": "Steelers",
+        "pff": "Steelers",
+        "ss": "Seahawks"
       },
-      "winner": "Seattle Seahawks"
+      "winner": "Seahawks"
     },
     {
-      "id": "Los Angeles Rams @ Tennessee Titans",
-      "away": "Los Angeles Rams",
-      "home": "Tennessee Titans",
+      "id": "Rams @ Titans",
+      "away": "Rams",
+      "home": "Titans",
       "picks": {
-        "michael": "Los Angeles Rams",
-        "antonio": "Los Angeles Rams",
-        "pff": "Los Angeles Rams",
-        "ss": "Los Angeles Rams"
+        "michael": "Rams",
+        "antonio": "Rams",
+        "pff": "Rams",
+        "ss": "Rams"
       },
-      "winner": "Los Angeles Rams"
+      "winner": "Rams"
     },
     {
-      "id": "Carolina Panthers @ Arizona Cardinals",
-      "away": "Carolina Panthers",
-      "home": "Arizona Cardinals",
+      "id": "Panthers @ Cardinals",
+      "away": "Panthers",
+      "home": "Cardinals",
       "picks": {
-        "michael": "Arizona Cardinals",
-        "antonio": "Arizona Cardinals",
-        "pff": "Arizona Cardinals",
-        "ss": "Arizona Cardinals"
+        "michael": "Cardinals",
+        "antonio": "Cardinals",
+        "pff": "Cardinals",
+        "ss": "Cardinals"
       },
-      "winner": "Arizona Cardinals"
+      "winner": "Cardinals"
     },
     {
-      "id": "Denver Broncos @ Indianapolis Colts",
-      "away": "Denver Broncos",
-      "home": "Indianapolis Colts",
+      "id": "Broncos @ Colts",
+      "away": "Broncos",
+      "home": "Colts",
       "picks": {
-        "michael": "Denver Broncos",
-        "antonio": "Denver Broncos",
-        "pff": "Denver Broncos",
-        "ss": "Indianapolis Colts"
+        "michael": "Broncos",
+        "antonio": "Broncos",
+        "pff": "Broncos",
+        "ss": "Colts"
       },
-      "winner": "Indianapolis Colts"
+      "winner": "Colts"
     },
     {
-      "id": "Philadelphia Eagles @ Kansas City Chiefs",
-      "away": "Philadelphia Eagles",
-      "home": "Kansas City Chiefs",
+      "id": "Eagles @ Chiefs",
+      "away": "Eagles",
+      "home": "Chiefs",
       "picks": {
-        "michael": "Kansas City Chiefs",
-        "antonio": "Philadelphia Eagles",
-        "pff": "Philadelphia Eagles",
-        "ss": "Philadelphia Eagles"
+        "michael": "Chiefs",
+        "antonio": "Eagles",
+        "pff": "Eagles",
+        "ss": "Eagles"
       },
-      "winner": "Philadelphia Eagles"
+      "winner": "Eagles"
     },
     {
-      "id": "Atlanta Falcons @ Minnesota Vikings",
-      "away": "Atlanta Falcons",
-      "home": "Minnesota Vikings",
+      "id": "Falcons @ Vikings",
+      "away": "Falcons",
+      "home": "Vikings",
       "picks": {
-        "michael": "Minnesota Vikings",
-        "antonio": "Minnesota Vikings",
-        "pff": "Minnesota Vikings",
-        "ss": "Atlanta Falcons"
+        "michael": "Vikings",
+        "antonio": "Vikings",
+        "pff": "Vikings",
+        "ss": "Falcons"
       },
-      "winner": "Atlanta Falcons"
+      "winner": "Falcons"
     },
     {
-      "id": "Tampa Bay Buccaneers @ Houston Texans",
-      "away": "Tampa Bay Buccaneers",
-      "home": "Houston Texans",
+      "id": "Buccaneers @ Texans",
+      "away": "Buccaneers",
+      "home": "Texans",
       "picks": {
-        "michael": "Tampa Bay Buccaneers",
-        "antonio": "Tampa Bay Buccaneers",
-        "pff": "Houston Texans",
-        "ss": "Houston Texans"
+        "michael": "Buccaneers",
+        "antonio": "Buccaneers",
+        "pff": "Texans",
+        "ss": "Texans"
       },
-      "winner": "Tampa Bay Buccaneers"
+      "winner": "Buccaneers"
     },
     {
-      "id": "Los Angeles Chargers @ Las Vegas Raiders",
-      "away": "Los Angeles Chargers",
-      "home": "Las Vegas Raiders",
+      "id": "Chargers @ Raiders",
+      "away": "Chargers",
+      "home": "Raiders",
       "picks": {
-        "michael": "Los Angeles Chargers",
-        "antonio": "Los Angeles Chargers",
-        "pff": "Los Angeles Chargers",
-        "ss": "Los Angeles Chargers"
+        "michael": "Chargers",
+        "antonio": "Chargers",
+        "pff": "Chargers",
+        "ss": "Chargers"
       },
-      "winner": "Los Angeles Chargers"
+      "winner": "Chargers"
     }
   ]
 }
